@@ -1,6 +1,6 @@
-""" to use standalone (on user ipython), copy this file to ~/.ipython/profile_default/startup/ipy_copy.py
+""" to use standalone (on user ipython), copy this file to ~/.ipython/profile_default/startup/ipyco.py
 (ofc replace profile_default if you made custom one in the past)
-then on a new ipython session, you could simply run `from ipy_copy import copy`.
+then on a new ipython session, you could simply run `from ipyco import copy`.
 if you want to avoid needing to to import it on the startup of every ipy session,
 you could uncomment the following dumb hack to inject it into the builtins on startup """
 # import("builtins").copy = (copy := None) # copy will be overriden with the actual impl later in the file
